@@ -47,14 +47,60 @@ export default function Dashboard() {
                             <tr>
                                 <td data-label="Cliente">Mercado Esquina</td>
                                 <td data-label="Assunto">Suporte</td>
-                                <td data-label="Status">Em aberto</td>
+                                <td data-label="Status">
+                                    <span className='badge' style={{ backgroundColor: '#999' }}>
+                                        Em aberto
+                                    </span>
+                                </td>
                                 <td data-label="Cadastrado">12/05/2022</td>
                                 <td data-label="#">
                                     <button className='action' style={{backgroundColor: '#3583f6'}}>
                                         <FiSearch color='#FFF' size={17}/>
                                     </button>
-                                    <button>
-                                        <FiEdit2 color='#FFF' size={17} style={{backgroundColor: '#f6a935'}}/>
+                                    <button className='action' style={{backgroundColor: '#f6a935'}}>
+                                        <FiEdit2 color='#FFF' size={17}/>
+                                    </button>
+                                </td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td data-label="Cliente">Informatica Tec</td>
+                                <td data-label="Assunto">Suporte</td>
+                                <td data-label="Status">
+                                    <span className='badge' style={{ backgroundColor: '#999' }}>
+                                        Em aberto
+                                    </span>
+                                </td>
+                                <td data-label="Cadastrado">12/05/2022</td>
+                                <td data-label="#">
+                                    <button className='action' style={{backgroundColor: '#3583f6'}}>
+                                        <FiSearch color='#FFF' size={17}/>
+                                    </button>
+                                    <button className='action' style={{backgroundColor: '#f6a935'}}>
+                                        <FiEdit2 color='#FFF' size={17}/>
+                                    </button>
+                                </td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td data-label="Cliente">ALO</td>
+                                <td data-label="Assunto">Suporte</td>
+                                <td data-label="Status">
+                                    <span className='badge' style={{ backgroundColor: '#999' }}>
+                                        Em aberto
+                                    </span>
+                                </td>
+                                <td data-label="Cadastrado">12/05/2022</td>
+                                <td data-label="#">
+                                    <button className='action' style={{backgroundColor: '#3583f6'}}>
+                                        <FiSearch color='#FFF' size={17}/>
+                                    </button>
+                                    <button className='action' style={{backgroundColor: '#f6a935'}}>
+                                        <FiEdit2 color='#FFF' size={17}/>
                                     </button>
                                 </td>
                             </tr>
